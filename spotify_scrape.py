@@ -2,6 +2,8 @@
 from bs4 import BeautifulSoup
 import requests
 from itertools import chain
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 
 def get_soup(url):
